@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<!--
+    TEST
+    
+    <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Search</title>
@@ -9,5 +12,32 @@
             <input type="text" name="q">
             <input type="submit" value="Google Search">
         </form>
+    </body>
+</html>-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="imagesearch.html">Google Images</a>
+            <a href="advancedsearch.html">Google Advanced Search</a>
+        </nav>
+        <div class="container">
+            <img class="words" src="Google logo.png" id="logo" alt="Google"/>
+        </div>
+        <div class="container">
+            <form action="https://www.google.com/search"> 
+                
+                <input type="text" name="q" class="searchbar" style="margin: auto"> 
+                <input type="submit" value="Google Search" class="searchbutton"> 
+                <input type="submit" name="btnI" value="I'm Feeling Lucky" class="searchbutton"> 
+            </form>
+        </div>  
     </body>
 </html>
